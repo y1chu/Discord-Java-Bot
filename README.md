@@ -1,4 +1,8 @@
 # 如何用Java製作Discord機器人！
+
+- JDA API: https://github.com/DV8FromTheWorld/JDA
+- Discord Developers Portal: https://discord.com/developers/applications
+
 ## 所有YouTube上的檔案都在這裡喔
 
 哈囉！謝謝你觀看我的視頻！
