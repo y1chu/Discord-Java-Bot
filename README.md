@@ -14,3 +14,4 @@
 - [如何用Java製作Discord機器人：ep.2 - 製作邀請指令](https://www.youtube.com/watch?v=ysXElSYeyYw)
 - [如何用Java製作Discord機器人：ep.3 - Help Command 以及 Embed Builder](https://www.youtube.com/watch?v=J7DalPmFMII)
 - [如何用Java製作Discord機器人：ep.4 - 機器人加入、成員加入活動](https://www.youtube.com/watch?v=9coofoK1zwY)
+- [如何用Java製作Discord機器人：ep.5 - 增加 Reactions](https://youtu.be/fcm1XsDUCIk)
