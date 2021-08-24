@@ -2,6 +2,7 @@
 
 - JDA API: https://github.com/DV8FromTheWorld/JDA
 - Discord Developers Portal: https://discord.com/developers/applications
+- Full emoji List: https://unicode.org/emoji/charts/full-emoji-list.html
 
 ## 所有YouTube上的檔案都在這裡喔
 
