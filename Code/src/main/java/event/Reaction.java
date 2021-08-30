@@ -39,7 +39,7 @@ public class Reaction extends ListenerAdapter {
 
     }
 
-    public void sendMessageWithReactions(MessageChannel channel, MessageEmbed embed, String... reactions) {
+    public static void sendMessageWithReactions(MessageChannel channel, MessageEmbed embed, String... reactions) {
         channel.sendMessage(embed).queue(msg -> {
             for(String reaction : reactions) {
                 msg.addReaction(reaction).queue();
