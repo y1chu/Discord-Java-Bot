@@ -17,3 +17,4 @@
 - [如何用Java製作Discord機器人：ep.4 - 機器人加入、成員加入活動](https://www.youtube.com/watch?v=9coofoK1zwY)
 - [如何用Java製作Discord機器人：ep.5 - 增加 Reactions](https://youtu.be/fcm1XsDUCIk)
 - [如何用Java製作Discord機器人：ep.6 - 等待指令](https://youtu.be/6xB2CeHuGQA)
+- [如何用Java製作Discord機器人：ep.7 - get Role, remove Role](https://www.youtube.com/watch?v=xdedsT5ZKgE)
