@@ -10,8 +10,8 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 public class Main {
 
     public static void main(String[] args) throws Exception{
-        JDA jda = JDABuilder.createDefault(YOUR_TOKEN).enableIntents(GatewayIntent.GUILD_MEMBERS).build();
-
+        JDA jda = JDABuilder.createDefault("").enableIntents(GatewayIntent.GUILD_MEMBERS).build();
+        // TODO: NEW RESTRICTION: NEED TO ENABLE MESSAGE CONTENT INTENT IN DISCORD APP PORTAL
         jda.awaitReady();
         jda.addEventListener(new Name());
         jda.addEventListener(new HelloCommand());
@@ -19,6 +19,9 @@ public class Main {
         jda.addEventListener(new Help());
         jda.addEventListener(new JoinAndLeave());
         jda.addEventListener(new Reaction());
+
+        jda.addEventListener(new GiveRole());
+        jda.addEventListener(new RemoveRole());
 
         EventWaiter waiter = new EventWaiter();
         jda.addEventListener(new UserWaiter(waiter));
